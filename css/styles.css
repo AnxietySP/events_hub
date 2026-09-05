@@ -41,3 +41,7 @@ h2::before { content: "★ "; color: #d97706; } li::marker { color: #059669; }
 
 /* attribute selectors */ a[target="_blank"] { color: #d97706; }
 input[type="file"] { border: 1px dashed #94a3b8; padding: 8px; } input[type="text"] { border: 1px solid #cbd5e1; padding: 8px; }
+
+
+/* attribute selectors */ a[target="_blank"] { color: #d97706; }
+input[type="file"] { border: 1px dashed #94a3b8; padding: 8px; } input[type="text"] { border: 1px solid #cbd5e1; padding: 8px; }
