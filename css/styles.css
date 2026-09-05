@@ -3,7 +3,7 @@ font-family: "Segoe UI", Arial, sans-serif; margin: 0;
 color: #1e293b; background: #f8fafc;
 }
 header {
-background: #0f172a; color: white; padding: 16px 24px;
+background: #3f5c9e; color: white; padding: 16px 24px;
 }
 nav a {
 color: #7dd3fc; margin-right: 12px; text-decoration: none;
@@ -16,7 +16,7 @@ padding: 24px;
 }
 
 /* simple selectors */
-h1 { color: #0f172a; }
+h1 { color: #e6e9f0; }
 .intro { background: #f8fafc; } #welcome { padding: 24px; } p.intro { font-size: 1.05rem; }
 h1, h2, h3 { font-family: Georgia, serif; } /* grouping */
 
