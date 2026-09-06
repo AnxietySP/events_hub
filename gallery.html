@@ -1,0 +1,56 @@
+]<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JNEC Events Hub – Gallery</title>
+
+  <!-- 1. Bootstrap CSS (framework) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- 2. Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- 3. YOUR CSS last so you can override Bootstrap -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header id="top">
+    <h1>JNEC Events Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="register.html">Register</a>
+      <a href="gallery.html" title="Go to gallery page">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Event Gallery</h2>
+    <img src="media/Hackathon.jpeg" alt="Students at last year's hackathon" width="300">
+    <img src="media/Losar.jpeg" alt="Losar celebration" width="300">
+    <img src="media/Football.jpeg" alt="Inter-college football final" width="300">
+
+    <h2>Highlights Video</h2>
+    <video controls width="480" poster="media/Hackathon.jpeg">
+      <source src="media/highlights.mp4" type="video/mp4">
+      Sorry, your browser does not support the video element.
+    </video>
+
+    <h2>Campus Radio Jingle</h2>
+    <audio controls>
+      <source src="media/jingle.mp3" type="audio/mpeg">
+      Sorry, your browser does not support the audio element.
+    </audio>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 JNEC Events Hub</p>
+  </footer>
+
+  <!-- Bootstrap JS – MUST be last, just before </body> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
