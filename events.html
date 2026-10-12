@@ -30,9 +30,24 @@
   <main>
     <div class="container py-4">
       <h2 class="mb-3">Upcoming Events</h2>
-      <table class="table table-striped table-bordered"></table>
-      <div class="row g-3">
+
+      <!-- Filters -->
+      <div class="row g-2 mb-4">
+        <div class="col-md-8">
+          <input type="text" id="search" class="form-control" placeholder="Search events...">
+        </div>
         <div class="col-md-4">
+          <select id="seat-filter" class="form-select">
+            <option value="all">All events</option>
+            <option value="available">Seats available</option>
+            <option value="full">Full</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Event list -->
+      <div class="row g-3" id="eventList">
+        <div class="col-md-4 event-item" data-seats="40">
           <div class="card event-card h-100">
             <img src="media/hackathon.jpeg" class="card-img-top" alt="Hackathon">
             <div class="card-body">
@@ -44,7 +59,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+
+        <div class="col-md-4 event-item" data-seats="100">
           <div class="card event-card h-100">
             <img src="media/losar.jpeg" class="card-img-top" alt="Losar Festival Night">
             <div class="card-body">
@@ -56,7 +72,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+
+        <div class="col-md-4 event-item" data-seats="0">
           <div class="card event-card h-100">
             <img src="media/football.jpeg" class="card-img-top" alt="Inter-College Football">
             <div class="card-body">
@@ -130,7 +147,11 @@
     <p>&copy; 2026 JNEC Events Hub</p>
   </footer>
 
-  <!-- Bootstrap JS – MUST be last, just before </body> -->
+  <!-- Bootstrap JS – MUST come before your own script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+  
 </body>
 </html>
